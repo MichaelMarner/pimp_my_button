@@ -56,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                       child: PimpedButton(
                         particle: RectangleDemoParticle(),
                         pimpedWidgetBuilder: (context, controller) {
-                          return RaisedButton(
+                          return TextButton(
                             onPressed: () {
                               controller?.forward(from: 0.0);
                             },
@@ -116,7 +116,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                 child: PimpedButton(
                   particle: Rectangle3DemoParticle(),
                   pimpedWidgetBuilder: (context, controller) {
-                    return RaisedButton(
+                    return TextButton(
                       onPressed: () {
                         controller?.forward(from: 0.0);
                       },
